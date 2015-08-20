@@ -2,10 +2,7 @@ var gallery = {};
 
 gallery.init = function(options) {
     var descriptionimage=$(options.descriptionimage);
-}
-
-
-$(document).ready(function() { 
+    
     descriptionimage.on({mouseenter: function() {
         var targetId = $(this).attr('for');
         $('#' + targetId).animate({'right': '10vw'});
@@ -15,9 +12,4 @@ $(document).ready(function() {
         $('#' + targetId).animate({'right': '-100vw'});
         }
     });
-}); 
-
-
-
-
-
+}
