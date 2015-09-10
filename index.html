@@ -1,61 +1,49 @@
 
 
         
-        <link type="text/css" rel="stylesheet" href="plugin.css">
+        <link type="text/css" rel="stylesheet" href="style.css">
 
 
           
         
-            <ul class='kgp-gallery'>
+            <main>
+                <ul class='kgp-gallery'>
                   <li>
-                      <a href="#"><img class='kgp-gal-img' for='description-1' src="#"/></a>
-                      <h4>Description 1</h4>
+                      <a href="/zen" target='_blank'><img class='gallery' for='description-zen' src="images/Zen.png"/></a>
+                      <h4>CSS Zen Garden</h4>
                   </li>
                   <li>
-                      <a href="#"><img class='kgp-gal-img' for='description-2' src="#"/></a>
-                      <h4>Description 2</h4>
+                      <a href="/selectors" target='_blank'><img class='gallery' for='description-selectors' src="images/selectors.png"/></a>
+                      <h4>CSS Selectors</h4>
                   </li>
                   <li>
-                      <a href="#"><img class='kgp-gal-img' for='description-3' src="#"/></a>
-                      <h4>Descripiton 3</h4>
+                      <a href="/LMHT" target="_blank"><img class='gallery' for='description-group' src="images/lmht.png"/></a>
+                      <h4>Group Project</h4>
                   </li>
-                  <li>
-                      <a href="#"><img class='kgp-gal-img' for='description-4' src="#"/></a>
-                      <h4>Description 4</h4>
-                  </li>
-                  <li>
-                      <a href="#"><img class='kgp-gal-img' for='description-5' src="#"/></a>
-                      <h4>Description 5</h4>
-                  </li>
-            </ul>
-            <div>
-                <div id="description-1">
-                      <h3>Description 1</h3>
-                      <p>CLorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh. Nunc varius facilisis eros. Sed erat. In in velit quis arcu ornare laoreet. Curabitur adipiscing luctus massa. Integer ut purus ac augue commodo commodo. Nunc nec mi eu justo tempor consectetuer. Etiam vitae nisl. In dignissim lacus ut ante. Cras elit lectus, bibendum a, adipiscing vitae, commodo et, dui. Ut tincidunt tortor. Donec nonummy, enim in lacinia pulvinar, velit tellus scelerisque augue, ac posuere</p>
-                </div>
-                <div id="description-2">
-                      <h3>Description 2</h3>
-                      <p>Nunc at velit quis lectus nonummy eleifend. Curabitur eros. Aenean ligula dolor, gravida auctor, auctor et, suscipit in, erat. Sed malesuada, enim ut congue pharetra, massa elit convallis pede, ornare scelerisque libero neque ut neque. In at libero. Curabitur molestie. Sed vel neque. Proin et dolor ac ipsum elementum malesuada. Praesent id orci. Donec hendrerit. In hac habitasse platea dictumst. Aenean sit amet arcu a turpis posuere pretium.</p>
-                </div>
-                <div id="description-3">
-                      <h3>Description 3</h3>
-                      <p>Nulla mauris odio, vehicula in, condimentum sit amet, tempus id, metus. Donec at nisi sit amet felis blandit posuere. Aliquam erat volutpat. Cras lobortis orci in quam porttitor cursus. Aenean dignissim. Curabitur facilisis sem at nisi laoreet placerat.</p>
-                </div>
-                <div id="description-4">
-                      <h3>Description 4</h3>
-                      <p>Fusce auctor, metus eu ultricies vulputate, sapien nibh faucibus ligula, eget sollicitudin augue risus et dolor. Aenean pellentesque, tortor in cursus mattis, ante diam malesuada ligula, ac vestibulum neque turpis ut enim. Cras ornare. Proin ac nisi. Praesent laoreet ante tempor urna. In imperdiet..</p>
-                </div>
-                <div id="description-5">
-                      <h3>Description 5</h3>
-                      <p>Cras vel nunc. Donec feugiat neque eget purus. Quisque rhoncus. Phasellus tempus massa aliquet urna. Integer fringilla quam eget dolor. Curabitur mattis. Aliquam ac lacus. In congue, odio ut tristique adipiscing, diam leo fermentum ipsum, nec sollicitudin dui quam et tortor. Proin id neque ac pede egestas lacinia. Curabitur non odio</p>
-                <div>
-            </div>
+              </ul>
+              <div>
+                  <div id='description-zen'>
+                      <h3>CSS Zen Garden</h3>
+                      <p>This was a fun project where the html was already done and we simply had to practice our beginners knowledge of
+                           css selectors to design the html page.</p>
+                  </div>
+                  <div id='description-selectors'>
+                      <h3>CSS Selectors</h3>
+                      <p>Our CSS moved out of the rookie phase during this project. Challenging, yet rewarding, this project was probably the most fun for me.
+                           Using nth child selectors as well as some attributes, I incorporated a triple linear gradient rotated 45 degrees
+                          to attain the effect of slicing through an individual cell and creating a pyramid. VERY satisfying.</p>
+                  </div>
+                  <div id='description-group'>
+                      <h3>Group Project</h3>
+                      <p>I was elected to be group leader for our capstone project, and was very happy with the idea we all came up with: An open source site to help spanish speakers understand the English terminology behind programming tags. We created a repo on GitHub, pushing and pulling as we built. We used a Jquery UI dropdown list in combination with an Ajax call to render different html documents to the page depending on what the user selects. The website uses an audio file and an idiomatic description for each tag selected to understand. We completed a readme file with explanation on how to easily add another programming tag to our website and continue to build this helpful educational tool!</p>
+                  <div>
+              </div>
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src='plugin.js'></script>
         <script>
         gallery.init({
-          yourclassname: '.kgp-gal-img'
+          yourclassname: '.gallery'
         });
         </script>
     
