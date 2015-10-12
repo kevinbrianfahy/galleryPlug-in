@@ -5,11 +5,11 @@ gallery.init = function(options) {
     
     yourclassname.on({mouseenter: function() {
         var targetId = $(this).attr('for');
-        $('#' + targetId).animate({'right': '10vw'}, 1000);
+        $('#' + targetId).show().animate({'right': '10vw'}, 1500);
         },
         mouseleave: function() {
         var targetId = $(this).attr('for');
-        $('#' + targetId).animate({'right': '-100vw'}, 1000);
+        $('#' + targetId).animate({'right': '-100vw'});
         }
     });
 }
